@@ -1,9 +1,9 @@
-title: devlopr
-subtitle: A Jekyll Theme Built for Developers
+title: RedLand
+subtitle: red land record for me
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a Jekyll Theme Built For Developers
+ To Be A Developers
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://iysheng.github.io" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "" # the subpath of your site, e.g. /blog
 
 urls:
@@ -13,23 +13,23 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
+#    - text: Shop
+#      url : /shop
     - text: Contact Me
       url : /contact
     - text: Styleguide
       url: /styleguide
-    - text: Get Started
-      url: /get-started
+#    - text: Get Started
+#      url: /get-started
 
 # Edit these details
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hello, My Name is John Doe. I love to Code and Design. devlopr-jekyll is a theme built for developers.
-author_email: "johndoe@gmail.com"
-author_location: India
-author_website_url: "http://johndoe.com"
+author: Yang yongsheng
+author_bio: Hello, My Name is Yang yongsheng. I like to Code and Design. I am a embedded Software programmer now.
+author_email: "iysheng@gmail.com"
+author_location: China
+author_website_url: "http://iysheng.github.io"
 
 author_work_experiences:
             - company_name: Google
@@ -37,12 +37,6 @@ author_work_experiences:
               company_url: https://google.com
               designation: Software Engineer
               description: Worked on various Google Products
-              visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
               visibility: true
 
 author_education_details:
@@ -66,28 +60,28 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  johndoe
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+#twitter_username: johndoe
+github_username:  iysheng
+#facebook_username: johndoe
+#linkedin_username: johndoe
+#behance_username: johndoe
+#instagram_username: johndoe
+#medium_username: johndoe
+#telegram_username: johndoe
+#dribbble_username: johndoe
+#flickr_username: johndoe
 
 #for comments using disqus
-disqus_shortname: sujay-kundu
+#disqus_shortname: sujay-kundu
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+#wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
 mailchimp_form_url:
 
 # formspree (contact form)
-formspree_email: johndoe@gmail.com
+formspree_email: iysheng@163.com
 
 # syntax highlighter
 markdown: kramdown
@@ -95,20 +89,20 @@ highlighter: rouge
 permalink: pretty
 
 # google analytics
-google_analytics: UA-46783401-10
+# google_analytics: UA-46783401-10
 
 # Choose what to show ( can be true or false)
-show_author_work_experiences: true
-show_author_education_details: true
+show_author_work_experiences: false
+show_author_education_details: false
 show_author_project_details: true
 
 # algolia search
-algolia:
-  application_id: D9WA1YKTRQ
-  index_name: blog_posts # You can replace that with whatever name you want
-  files_to_exclude: []
-  nodes_to_index: 'article'
-  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
+#algolia:
+#  application_id: D9WA1YKTRQ
+#  index_name: blog_posts # You can replace that with whatever name you want
+#  files_to_exclude: []
+#  nodes_to_index: 'article'
+#  search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
 
 # pagination of posts
 paginate: 4
@@ -132,8 +126,8 @@ paginate_path: "/blog/page/:num/"
 #     category: '/category/:name/'
 
 # Shop
-collections:
- - products
+#collections:
+# - products
 
 # Gallery
 defaults:
