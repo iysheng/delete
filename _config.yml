@@ -7,3 +7,6 @@ defaults:
       type: "authors"
     values:
       layout: "author"
+
+username: Yang sheng
+user_title: Coder ⌨
