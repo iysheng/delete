@@ -1,11 +1,15 @@
 <nav>
-	<!-- <a href="/" {% if page.url == "/" %} style="color: red;" {% endif %} > Home lands </a> -->
-	<!-- <a href="/about.html" {% if page.url == "/about.html" %} style="color:red" {% endif %}> about </a> -->
-	<ti>
+	<!-- 引入外部 css 文件 -->
+	<link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
+	<!-- 网站图标-->
+	<link rel="icon" type="image/png" href="{{ '/assets/favicon.png' }}" >
+	<div id=main_head_title>
+	<!-- 罗列标题 -->
 	{% for item in site.data.navigation %}
-	<a href="{{item.link}}" {% if page.url == item.link %} style="color:yellow;" {% endif %}>{{item.name}}</a>
+	<!-- <a id=main_head_font href="{{item.link}}" {% if page.url == item.link %} {% endif %}>{{item.name}}</a> -->
+	<a id=main_head_links href="{{item.link}}" {% if page.url == item.link %} {% endif %}>
+		{{item.name}}
+	</a>
 	{% endfor %}
-	</ti>
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | prepend: site.baseurl }}">
-  <link rel="shortcut icon" type="image/png" href="{{ '/assets/favicon.png' }}" >
+	</div>
 </nav>
